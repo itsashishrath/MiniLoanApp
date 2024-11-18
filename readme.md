@@ -128,9 +128,14 @@ Create Loan: POST /loans/
 Approve Loan (Admin): POST /loans/<id>/approve/
 Refer to the code snippets in the project for full usage.
 ```
-**Here are some requests**
+**Here are some screenshots**
 ![image](https://github.com/user-attachments/assets/bb63a40d-67b3-4db0-8bf3-89bd1e87121e)
+
 ![image](https://github.com/user-attachments/assets/4ad9c5c7-f1db-4214-b965-22ca90107729)
+
 ![image](https://github.com/user-attachments/assets/bdaeb5a3-8cd3-4b94-8ffb-e936ab5b1a78)
+
 ![image](https://github.com/user-attachments/assets/356a7a5f-1906-4765-8ea6-9e482dee7818)
+
+
 ![image](https://github.com/user-attachments/assets/e4c0620a-e0b1-41bf-a73f-b17ffbf8ce7b)
