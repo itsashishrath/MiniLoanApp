@@ -74,38 +74,49 @@ The frontend was built using **React**, with React Router for route handling and
    cd LoanApp-Frontend
    git clone https://github.com/itsashishrath/LoanApp-Frontend.git
    cd LoanApp-Frontend
-Create a virtual environment:
+   ```
+2. **Create a virtual environment**:
+```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows:
+    venv\Scripts\activate  # linux
+```
+3. **Install dependencies**:
+```bash
+    pip install -r requirements.txt
+```
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+4. **Apply database migrations**:
 
-bash
-Copy code
-pip install -r requirements.txt
-Apply database migrations:
+```bash
 
-bash
-Copy code
 python manage.py makemigrations
 python manage.py migrate
-Run the development server:
+```
 
-bash
-Copy code
+5. **Run the development server**:
+
+```bash
 python manage.py runserver localhost:8000
 Note: Using localhost:8000 is crucial due to allowed host settings and CORS configurations.
+```
 
-Frontend Setup (React)
+
+**Frontend Setup (React)**
+```bash
 Instructions for setting up the frontend are available in the frontend repository.
 
 Clone the frontend repository.
+
 Install dependencies using npm install.
+
 Run the frontend server using npm start.
-How to Use the Application
-User Flow
+```
+
+**How to Use the Application**
+
+**1. User Flow**
+```bash
 Registration: Users can sign up on the registration page.
 Login: Obtain a JWT token to access protected routes.
 Profile: View and update user profile details.
@@ -120,3 +131,4 @@ Get User Profile: GET /auth/profile/ (with Authorization: Bearer <JWT_TOKEN>)
 Create Loan: POST /loans/
 Approve Loan (Admin): POST /loans/<id>/approve/
 Refer to the code snippets in the project for full usage.
+```
