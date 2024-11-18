@@ -76,9 +76,8 @@ The frontend was built using **React**, with React Router for route handling and
    ```
 2. **Create a virtual environment**:
 ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows:
-    venv\Scripts\activate  # linux
+    python -m venv env
+    source env/bin/activate
 ```
 3. **Install dependencies**:
 ```bash
