@@ -133,11 +133,17 @@ Refer to the code snippets in the project for full usage.
 **Login/Register**
 ![image](https://github.com/user-attachments/assets/bb63a40d-67b3-4db0-8bf3-89bd1e87121e)
 
+
+
 **Loan List**
 ![image](https://github.com/user-attachments/assets/a08a50ce-3d15-48ff-88f8-7af5279446ed)
 
+
+
 **Payment**
 ![image](https://github.com/user-attachments/assets/4ad9c5c7-f1db-4214-b965-22ca90107729)
+
+
 
 **Admin Approval**
 ![image](https://github.com/user-attachments/assets/e4c0620a-e0b1-41bf-a73f-b17ffbf8ce7b)
