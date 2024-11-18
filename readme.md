@@ -1,10 +1,11 @@
 # Mini Loan App
 
-Welcome to the **Mini Loan App**! This project is a full-stack web application built using **Django** for the backend and **React** for the frontend. The application is hosted on **AWS** and is designed to facilitate loan management, allowing users to register, apply for loans, and make repayments, with administrative functionality to approve loans. This repository hosts the backend code.
+Welcome to the **Mini Loan App**! This project is a full-stack web application built using **Django** for the backend and **React** for the frontend , **SQL** for database. The application is hosted on **AWS** and is designed to facilitate loan management, allowing users to register, apply for loans, and make repayments, with administrative functionality to approve loans. This repository hosts the backend code.
 
 - **Backend**: Django REST Framework, JWT Authentication
 - **Frontend**: React.js
 - **Hosting**: AWS Server
+- **Database**: SQL
 - **Live Demo**: [http://54.252.194.42:8000/](http://54.252.194.42:8000/)
 
 ---
@@ -70,10 +71,8 @@ The frontend was built using **React**, with React Router for route handling and
 ### Backend Setup (Django)
 1. **Clone the backend repository**:
    ```bash
-   git clone https://github.com/itsashishrath/LoanApp-Frontend.git
-   cd LoanApp-Frontend
-   git clone https://github.com/itsashishrath/LoanApp-Frontend.git
-   cd LoanApp-Frontend
+   git clone https://github.com/itsashishrath/MiniLoanApp.git
+   cd MiniLoanApp
    ```
 2. **Create a virtual environment**:
 ```bash
@@ -89,7 +88,6 @@ The frontend was built using **React**, with React Router for route handling and
 4. **Apply database migrations**:
 
 ```bash
-
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -100,7 +98,6 @@ python manage.py migrate
 python manage.py runserver localhost:8000
 Note: Using localhost:8000 is crucial due to allowed host settings and CORS configurations.
 ```
-
 
 **Frontend Setup (React)**
 ```bash
