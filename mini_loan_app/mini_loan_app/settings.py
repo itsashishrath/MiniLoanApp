@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +28,8 @@ SECRET_KEY = 'django-insecure-4$1)q67$u^1v%_u$n1bm+o&eljl#)@fcg&$108)-49t&r8#adk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.252.194.42']
+ALLOWED_HOSTS = ['54.252.194.42',
+                 'localhost']
 
 
 # Application definition
@@ -68,7 +70,7 @@ ROOT_URLCONF = 'mini_loan_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -141,7 +143,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
+
 STATIC_URL = 'static/'
+STATICFILES_DIRS=[BASE_DIR / 'static' ,]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
