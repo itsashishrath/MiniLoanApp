@@ -56,7 +56,7 @@ The backend was developed using Django REST Framework (DRF), with JWT used for s
 ### Frontend (React.js)
 The frontend was built using **React**, with React Router for route handling and Context API for global state management (authentication and loan details). It features a clean, intuitive interface with protected routes.
 
-- **Frontend Repository**: [LoanApp-Frontend](https://github.com/itsashishrath/LoanApp-Frontend)
+- **Frontend Repository**: [LoanApp-Frontend](https://github.com/itsashishrath/LoanApp_Frontend)
 
 ---
 
