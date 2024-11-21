@@ -4,6 +4,14 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.core.exceptions import ValidationError
+from django.shortcuts import render
+
+
+def bajaj_frontend_view(request):
+    """
+    Render the Bajaj Frontend template
+    """
+    return render(request, 'index2.html')
 
 class BFHLView(APIView):
     def get(self, request):
